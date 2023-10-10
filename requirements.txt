@@ -4,3 +4,7 @@ pandas
 openai
 pandasai
 matplotlib
+streamlit
+pandas
+openai
+beautifulsoup4

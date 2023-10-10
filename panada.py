@@ -10,10 +10,10 @@ from pandasai import PandasAI
 from pandasai.llm.openai import OpenAI
 
 
-openai.api_key = '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' 
+openai.api_key = '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'
 st.title("hi")
 matplotlib.use("TkAgg")
-openai_api_key = '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' 
+openai_api_key = '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' 
 llm = OpenAI(api_token=openai_api_key)
 pandas_ai = PandasAI(llm)
 uploaded_file = st.file_uploader("upload",type=["csv"])
